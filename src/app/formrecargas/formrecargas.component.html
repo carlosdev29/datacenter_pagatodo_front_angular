@@ -1,0 +1,19 @@
+<h1>Consulta recargas</h1>
+<table class="table table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>operador</th>
+            <th>Asesor</th>
+            <th>cantida recargas</th>
+            <th>valor recarga</th>
+        </tr>
+    </thead>
+    <tbody class="table-dark">
+        <tr *ngFor="let recarga of listaRecargas">
+            <td>{{recarga.operador}}</td>
+            <td>{{recarga.asesor}}</td>
+            <td>{{recarga.cantidad}}</td>
+            <td>{{recarga.valor}}</td>
+        </tr>
+    </tbody>
+</table>
