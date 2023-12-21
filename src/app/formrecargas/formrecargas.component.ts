@@ -28,4 +28,10 @@ export class FormrecargasComponent implements OnInit {
     })
   }
 
+  /*private agregarRecarga(){
+    this.apiRecarga.agregarRecarga().subscribe(miRecarga =>{
+
+    })
+  }*/
+
 }
