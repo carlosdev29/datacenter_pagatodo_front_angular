@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { FormrecargasComponent } from './formrecargas/formrecargas.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormSaveRecargasComponent } from './form-save-recargas/form-save-recargas.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { FormSaveRecargasComponent } from './form-save-recargas/form-save-recarg
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RecargaForm } from '../recarga-form';
 
 @Component({
   selector: 'app-form-save-recargas',
@@ -11,6 +12,17 @@ export class FormSaveRecargasComponent {
   operador:string="Operador( Claro, Movistar, Tigo etc...):";
   cantRec:string="Cantidad de Recargas:";
   valRec:string="Valor de la Recarga:";
+  
+  imgMovistar:string="assets/logos/movistar-logo.png";
+  imgTigo:string="assets/logos/tigo-logo.png";
+
+  recarga:RecargaForm;
+
+  public saveRecarga(){
+    console.log(this.recarga);
+  }
+
+  
 
 
 }

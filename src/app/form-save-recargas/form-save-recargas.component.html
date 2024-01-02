@@ -2,8 +2,8 @@
     <h1>Formulario de Recargas</h1>
     <div>
         <a class="navbar-item"></a>
-        <img src="assets/logos/movistar-logo.png" class="myLogo">
-        <img src="assets/logos/tigo-logo.png" class="myLogo">
+        <img [src]="imgMovistar" class="myLogo">
+        <img [src]="imgTigo" class="myLogo">
     </div>
 </div>
 <div class="card">
@@ -15,16 +15,17 @@
             </div>
             <div class="mb-2">
                 <label>{{operador}}</label>
-                <input type="text">
+                <input type="text" >
             </div>
             <div class="mb-2">
                 <label>{{valRec}}</label>
-                <input type="text">
+                <input type="number">
             </div>
             <div class="mb-2">
                 <label>{{cantRec}}</label>
-                <input type="text">
+                <input type="number">
             </div>
+            <button>Regitrar Recarga</button>
         </form>
     </div>
 </div>
